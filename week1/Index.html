@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web page</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <nav></nav>
+        </header>
+        <main>
+           
+            <section>
+                <div class="signup-form" style="padding: auto; max-width: min-content;">
+                    <form action="" method="get">
+                        <h4 style="color: brown;">
+                            <!-- html Comment tag-->
+                        Fill in your Biodata
+                        </h4>
+                        <fieldset >
+                            <legend>Biodata</legend>
+                            <div class="form-group">
+                                <div class="row">
+                                  <label for="name"style="color: red;">Name</label><br>
+                                  <input type="text" name="name" id="name" required><br>
+                               </div>
+                            </div>
+                           <div class="form-group">
+                            <label for="number" style="color: red;">Phone number</label><br>
+                            <input type="number" name="number" id="number" required><br> required
+                           </div>
+                           <div class="form-group">
+                            <label for="email" style="color: red;">Email</label><br>
+                            <input type="email" name="email" id="email" required><br>
+                           </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <label for="gender" style="color: red;">gender</label><br>
+                                    <input type="radio" name="gender" id="gender">male<br>
+                                </div>
+                                <div>
+                                    <input type="radio" name="gender" id="gender" required>female<br>
+                                </div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="password" style="color: red;">password</label><br>
+                                <input type="password" name="password" id="password" required><br>
+                       
+                            </div><br>
+                           <div class="form-group">
+                            
+                            <button type="submit"value="Submit" onclick="myFunction()">Submit</button>
+                           </div>
+                          
+                        
+                        </fieldset>
+                  </form>
+                </div>
+                
+       
+           
+            </section>
+           
+           
+        
+            <script>
+            function myFunction() {
+        
+                 alert("Data submitted successfully !");  
+                 alert(true);
+                 
+            }
+        
+            </script>
+        </main>
+        
+    </body>
+</html>
